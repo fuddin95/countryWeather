@@ -45,7 +45,7 @@ const unit="metric";
             const imgURL= "http://openweathermap.org/img/wn/"+icon+"@2x.png";
             
             res.write("<p>The weather currently in "+country+" is "+ "<em>"+weatherData.weather[0].description+"</em>" + ".");
-            res.write("<h1>The temperature in "+country+ "is " + temp +" Celcius.</h1>");
+            res.write("<h1>The temperature in "+country+ " is " + temp +" Celcius.</h1>");
             res.write("<img src="+imgURL+">");
             
             res.send();//it should be empty and at the end of the res.write
