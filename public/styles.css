@@ -1,7 +1,12 @@
 body{
-    background-color: rgb(44, 88, 109);
-    align-items: center;
    
+   font: normal 14px/100% "Andale Mono", AndaleMono, monospace;
+  color: #fff;
+  padding: 50px;
+  width: 600px;
+  margin: 0 auto;
+  background-color: #374954;
+  text-align: center;
 }
 
 h1{
